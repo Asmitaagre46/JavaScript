@@ -6,8 +6,9 @@ console.log(`Hello my name is ${name} and my age is ${age}`);
 
 const gameName = new String('asmita-aa')  //string declaration
 
-console.log(gameName[0]);   //key-value pair access (h)
-// methods
+console.log(gameName[0]);   //key-value pair access (a)
+
+// methods or functions
 console.log(gameName.length);
 console.log(gameName.toUpperCase());
 console.log(gameName.charAt(2));
