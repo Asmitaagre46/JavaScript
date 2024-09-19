@@ -25,7 +25,7 @@ console.log(newName);
 console.log(newName.trim());   //for removing the extra spacing in text.
 
 const url = "https://asmita.com/asmita%20agre"
-console.log(url.replace('%20', '-'));
+console.log(url.replace('%20', '-'));              // https://asmita.com/asmita-agre
 
 console.log(url.includes('asmita'));   //true
 
