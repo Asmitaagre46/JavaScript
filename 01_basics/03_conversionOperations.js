@@ -60,7 +60,7 @@ let x = 3;
 const y = x++;
  
  console.log(x, y);
- // Expected output: "x:4, y:3"
+ // output: "x:4, y:3"
 
 /**If used prefix, with operator before operand (for example, ++x),
  the increment operator increments and returns the value after incrementing.**/
@@ -68,7 +68,7 @@ const y = x++;
  const b = ++a;
  
  console.log(a, b);
- // Expected output: "a:4, b:4"
+ // output: "a:4, b:4"
 
 
  
