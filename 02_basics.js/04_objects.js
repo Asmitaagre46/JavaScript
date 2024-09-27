@@ -60,3 +60,21 @@ console.log(obj3);
 
 // for checking that if objects has that particular property or not :
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));         // output will be always in boolean!  true
+
+
+
+// De- structuring the object:
+const course = {
+    courseInstructor: "Asmita",
+    courseFees: "1000"
+}
+
+// Following are the ways or printing the "courseInstructor" :
+
+console.log(course.courseInstructor);
+
+const {courseInstructor} = course
+console.log(courseInstructor);
+
+const {courseInstructor : instructor} = course                        // de-strcuturing courseInstructor as instructor
+console.log(instructor);
