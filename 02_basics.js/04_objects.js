@@ -81,10 +81,10 @@ console.log(instructor);
 
 
 // API's are in the JSON format only. API's are nothing but the Objects.
-{
+/* {
     "name": "Asmita",
     "standard":"MSc.CS",
-}
+} */ 
 
 [
     {},
