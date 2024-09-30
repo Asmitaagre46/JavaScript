@@ -1,4 +1,4 @@
-// for of loop:
+// forof loop:
 
 // ["","",""]
 // {{},{},{}}
@@ -40,3 +40,7 @@ for (const [key, value] of map) {
           USA :- United States of America
           FR :- France     
 */
+
+
+
+// for-of loop is not wok on objects.
